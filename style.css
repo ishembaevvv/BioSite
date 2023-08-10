@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    background: #f6f6f6;
+    width: 412px;
+    height: 914px;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2) inset;
+    -moz-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2) inset;
+    box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2) inset;
+}
+
+.avatar img{
+    width: 132px;
+    height: 132px;
+    margin-top: 30px;
+    margin-left: 136px;
+    border: 2px solid #2f2f2f;
+    border-radius: 50%;
+    background: #ffcb74;
+}
+
+.text {
+    display: flex;
+    justify-content: center;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.about h1 {
+    color: #111111;
+}
+.about p {
+    color: #6c6a6a;
+    margin-top: -20px;
+    margin-left: 30px;
+}
+
+.logo {
+    top: -15px;
+    position: relative;
+    margin-left: 76px;
+    color: #ffcb74;
+}
+
+.buttons-group {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-left: -65px;
+}
+
+.buttons {
+    width: 100px;
+    display: grid;
+    grid-row-gap: 20px;
+}
+
+.butt {
+    width: 150px;
+    height: 40px;
+    border: none;
+    background: #ffcb74;
+    border-radius: 20px;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.butt a {
+    text-decoration: none;
+    color: #2f2f2f;
+}
+
+
+.butt:hover {
+    -webkit-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2) inset;
+    -moz-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2) inset;
+    box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2) inset;
+    background: #f6f6f6;
+}
+
+.email {
+    font-size: 13px;
+    color: #6c6a6a;
+    margin-top: 100px;
+    margin-left: 104px;
+}
+
+.email a {
+    color: #ffcb74;
+    text-decoration: none;
+}
+
+@media (max-width:850px) {
+    .about p {
+        color: #6c6a6a;
+        margin-top: -20px;
+        margin-left: 30px;
+    }
+}
+
+@media (max-width: 400px) {
+    .avatar img {
+        margin-left: 120px;
+    }
+}
+
+@media (max-width: 280px) {
+    .avatar img {
+        margin-left: 70px;
+    }
+    .buttons-group {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+        margin-left: -65px;
+    }
+}
+
+
+
